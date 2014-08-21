@@ -6,6 +6,7 @@
 		<title>Angular tree demo</title>
 		<script>
 		angular.module('demoApp', ['angular.tree']).controller('demoController', ['$scope', function($scope) {
+			$scope.elems = [{title: 'array elem 1'}, {title: 'array elem 2'}];
 			$scope.blah = function(event){
 				console.log(event);
 			};
@@ -14,6 +15,19 @@
 	</head>
 	<body data-ng-app="demoApp">
 		<div data-ng-controller="demoController">
+			<ul data-tree data-tree-callback="blah(event)">
+				<li>
+					<a href="#one">
+							Roota
+					</a>
+					<ul class="treeview-menu">
+						<li data-ng-repeat="elem in elems">
+							<a href="#">{{ elem.title }}</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			
 			 <ul data-tree data-tree-callback="blah(event)">
 				<li>
 					<a href="#one">
