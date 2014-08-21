@@ -3,6 +3,61 @@ Angular tree
 
 A simple directive for creating tree lists with angularjs
 
+Requirements
+--
+* Angularjs
+
+Usage
+==
+
+
+Load script
+--
+Include the file angular-tree.min.js after angularjs is loaded.
+```javascript
+<script src="dist/angular-tree.min.js"></script>
+```
+
+Code
+--
+Add the module as dependency to your application module
+
+```javascript
+var app = angular.module('AppName', ['angular.tree']);
+```
+
+View 
+--
+```html
+<ul data-tree data-tree-callback="blah(event)">
+    <li>
+    	<a href="#one">
+    		Root1
+    	</a>
+    </li>
+    <li>
+    	<a href="#two">
+    		Root2
+    	</a>
+    	<ul class="treeview-menu">
+    		<li><a href="#two1">A</a></li>
+    		<li><a href="#two2">B</a></li>
+    		<li><a href="#two3">C</a></li>
+    	</ul>
+    </li>
+    <li>
+		<a href="#three">
+			Root3
+		</a>
+		<ul class="treeview-menu">
+			<li><a href="#three1">A</a></li>
+			<li><a href="#three2">B</a></li>
+		</ul>
+	</li>
+</ul>
+```
+
+
 UNDER MIT LICENSE
 =================
 
