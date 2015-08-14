@@ -57,6 +57,10 @@ View
 </ul>
 ```
 
+## Development
+
+Questions or problems? Please post them on the [issue tracker](https://github.com/amalfra/angular-tree/issues). You can contribute changes by forking the project and submitting a pull request.
+
 
 UNDER MIT LICENSE
 =================
