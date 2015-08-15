@@ -1,6 +1,6 @@
 (function(window, angular, undefined) {
     'use strict';
-	angular.module("angular.tree",[]).directive('tree', ["$document", function($document) {
+	angular.module("angularjs.tree",[]).directive('tree', ["$document", function($document) {
 	   return {
 		   restrict: 'A',
 		   scope: {
@@ -14,7 +14,7 @@
 					var isActive = angular.element(value).hasClass('active');
 
 					//initialize already active menus
-					if (isActive) 
+					if (isActive)
 					{
 						angular.element(menu).css('display', 'block');
 					}
@@ -22,7 +22,7 @@
 					{
 						angular.element(menu).css('display', 'none');
 					}
-					
+
 					if (menu != null)
 					{
 						//open or close the sub menu on link click
@@ -43,7 +43,7 @@
 						});
 					}
 				});
-		   } 
+		   }
 	   }
 	}]);
 })(window, window.angular);

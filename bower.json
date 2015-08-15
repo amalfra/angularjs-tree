@@ -1,11 +1,11 @@
 {
-  "name": "angular-tree",
+  "name": "angularjs-tree",
   "version": "0.0.1",
   "authors": [
     "Amal Francis <amalfra@gmail.com>"
   ],
   "description": "A simple directive for creating tree lists with angularjs",
-  "main": ["src/angular-tree.js"],
+  "main": ["src/angularjs-tree.js"],
   "moduleType": [
     "globals"
   ],
@@ -14,7 +14,7 @@
     "tree"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/amalfra/angular-tree",
+  "homepage": "https://github.com/amalfra/angularjs-tree",
   "ignore": [
     "**/.*",
     "node_modules",

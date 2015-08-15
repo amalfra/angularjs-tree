@@ -1,4 +1,4 @@
-Angular tree
+Angularjs tree
 ====
 
 A simple directive for creating tree lists with angularjs
@@ -13,9 +13,9 @@ Usage
 
 Load script
 --
-Include the file angular-tree.min.js after angularjs is loaded.
+Include the file angularjs-tree.min.js after angularjs is loaded.
 ```javascript
-<script src="dist/angular-tree.min.js"></script>
+<script src="dist/angularjs-tree.min.js"></script>
 ```
 
 Code
@@ -23,10 +23,10 @@ Code
 Add the module as dependency to your application module
 
 ```javascript
-var app = angular.module('AppName', ['angular.tree']);
+var app = angular.module('AppName', ['angularjs.tree']);
 ```
 
-View 
+View
 --
 ```html
 <ul data-tree data-tree-callback="blah(event)">
@@ -59,7 +59,7 @@ View
 
 ## Development
 
-Questions or problems? Please post them on the [issue tracker](https://github.com/amalfra/angular-tree/issues). You can contribute changes by forking the project and submitting a pull request.
+Questions or problems? Please post them on the [issue tracker](https://github.com/amalfra/angularjs-tree/issues). You can contribute changes by forking the project and submitting a pull request.
 
 
 UNDER MIT LICENSE

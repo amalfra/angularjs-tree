@@ -10,12 +10,12 @@ module.exports = function(grunt) {
 			},
 			my_target: {
 			  files: {
-				'./dist/angular-tree.min.js': ['./src/angular-tree.js']
+				'./dist/angularjs-tree.min.js': ['./src/angularjs-tree.js']
 			  }
 			}
 	  }
 	});
-	
+
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.registerTask('default', ['uglify:my_target']);
 }
