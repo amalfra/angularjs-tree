@@ -7,6 +7,12 @@ Requirements
 --
 * Angularjs
 
+Install
+--
+```
+bower install angularjs-tree
+```
+
 Usage
 ==
 
