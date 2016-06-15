@@ -3,6 +3,8 @@ Angularjs tree
 
 A simple directive for creating tree lists with angularjs
 
+![screenshot](https://raw.githubusercontent.com/amalfra/angularjs-tree/master/examples/screenshot.png)
+
 Requirements
 --
 * Angularjs
@@ -65,8 +67,9 @@ View
 
 ## Development
 
-Questions or problems? Please post them on the [issue tracker](https://github.com/amalfra/angularjs-tree/issues). You can contribute changes by forking the project and submitting a pull request.
+Questions, problems or suggestions? Please post them on the [issue tracker](https://github.com/amalfra/angularjs-tree/issues).
 
+You can contribute changes by forking the project and submitting a pull request. Feel free to contribute :heart_eyes:
 
 UNDER MIT LICENSE
 =================
