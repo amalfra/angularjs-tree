@@ -1,8 +1,11 @@
 {
-  "name": "Angularjs-tree",
-  "version": "0.0.1",
+  "name": "angularjs-tree",
+  "version": "0.1.0",
   "description": "A simple directive for creating tree lists with angularjs",
-  "private": true,
+  "author": "Amal Francis",
+  "bugs": {
+    "url": "https://github.com/amalfra/angularjs-tree/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/amalfra/angularjs-tree"
