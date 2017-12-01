@@ -1,5 +1,7 @@
 Angularjs tree
 ====
+[![npm](https://img.shields.io/npm/v/angularjs-tree.svg)](https://www.npmjs.com/package/angularjs-tree)
+[![Bower](https://img.shields.io/bower/v/angularjs-tree.svg)](https://www.npmjs.com/package/angularjs-tree)
 
 A simple directive for creating tree lists with angularjs
 
@@ -13,6 +15,10 @@ Install
 --
 ```
 bower install angularjs-tree
+```
+or 
+```
+npm install angularjs-tree
 ```
 
 Usage
