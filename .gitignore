@@ -13,9 +13,6 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
@@ -27,3 +24,6 @@ node_modules
 config.js
 *~
 .DS_store
+
+dist
+!dist/*.min.js
