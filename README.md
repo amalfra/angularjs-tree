@@ -2,7 +2,7 @@ Angularjs tree
 ====
 [![npm](https://img.shields.io/npm/v/angularjs-tree.svg)](https://www.npmjs.com/package/angularjs-tree)
 
-A simple directive for creating tree lists with angularjs
+A simple directive for creating tree lists with Angularjs version 1.
 
 ![screenshot](https://raw.githubusercontent.com/amalfra/angularjs-tree/master/examples/screenshot.png)
 
