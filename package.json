@@ -1,6 +1,6 @@
 {
   "name": "angularjs-tree",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A simple directive for creating tree lists with angularjs",
   "author": "Amal Francis",
   "type": "module",
